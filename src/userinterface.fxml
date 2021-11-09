@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="285.0" prefWidth="495.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller">
+   <children>
+      <ComboBox fx:id="connectionsComboBox" layoutX="32.0" layoutY="21.0" prefHeight="26.0" prefWidth="267.0" />
+      <Button fx:id="refreshButton" layoutX="315.0" layoutY="21.0" mnemonicParsing="false" text="Refresh" />
+      <Button fx:id="connectButton" layoutX="393.0" layoutY="21.0" mnemonicParsing="false" text="Connect" />
+      <Button fx:id="onButton" layoutX="32.0" layoutY="65.0" mnemonicParsing="false" prefHeight="149.0" prefWidth="216.0" text="On" />
+      <Button fx:id="offButton" layoutX="266.0" layoutY="65.0" mnemonicParsing="false" prefHeight="149.0" prefWidth="199.0" text="Off" />
+      <Text fx:id="connectedLabel" fill="#52ff42" layoutX="44.0" layoutY="260.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Connected!!" wrappingWidth="154.140625">
+         <font>
+            <Font size="23.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>
