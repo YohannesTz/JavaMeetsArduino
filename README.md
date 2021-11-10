@@ -1,6 +1,6 @@
 # JavaMeetsArduino
 
-<img src="image/javameetsarduino.png"
+<img src="image/the_creation_of_adam_edited.png"
      alt="Java Meeting Arduino"
      style="float: left; margin-right: 10px;" />
 
